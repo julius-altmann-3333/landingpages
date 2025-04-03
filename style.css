@@ -30,6 +30,11 @@
             color: #444;
         }
 
+       a {
+              text-decoration: none;
+              color: black;
+       }
+
         /* Iframe container styling */
         .iframe-container {
             position: relative;
