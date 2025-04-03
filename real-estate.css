@@ -1,1 +1,80 @@
+body {
+            font-family: 'Open Sans', sans-serif;
+        }
 
+        .navbar {
+            padding: 1rem;
+        }
+
+        .hero-section {
+            background-image: url('https://via.placeholder.com/1500x800'); /* Hero image placeholder */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+
+        .property-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        .footer .social-icons i {
+            margin: 0 10px;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .footer .social-icons i:hover {
+            color: #007bff;
+        }
+
+        .testimonials {
+            background-color: #f8f9fa;
+        }
+
+        .testimonials blockquote {
+            border-left: 5px solid #007bff;
+            padding-left: 20px;
+            font-style: italic;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            border-radius: 5px;
+        }
+
+        .map-container {
+            height: 400px;
+            background-color: #e5e5e5;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+
+            .hero-section p {
+                font-size: 1rem;
+            }
+
+            .property-card img {
+                height: 200px;
+            }
+        }
